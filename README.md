@@ -4,7 +4,7 @@ This project is an AR application that lets users place 3D models on detected pl
 
 Instead of hardcoding behavior on specific GameObjects, I used a data-driven approach so adding new models or changing configuration doesn't require touching the code.
 
-📱 Features
+****** Features *****
 AR Placement: Detect planes and tap to spawn models.
 
 Dynamic Model Loading: Supports multiple unique models with different animation sets.
@@ -23,7 +23,8 @@ Reverse Playback
 
 Movement: Drag models on XZ plane (Y-axis locked).
 
-🛠 Architecture & Design
+*** Architecture & Design  ****
+
 The core of the project is built around ScriptableObjects to keep logic decoupled from data.
 
 1. Data-Driven Models (ScriptableObject)
