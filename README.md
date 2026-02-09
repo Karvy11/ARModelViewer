@@ -5,6 +5,7 @@ This project is an AR application that lets users place 3D models on detected pl
 Instead of hardcoding behavior on specific GameObjects, I used a data-driven approach so adding new models or changing configuration doesn't require touching the code.
 
 ****** Features *****
+
 AR Placement: Detect planes and tap to spawn models.
 
 Dynamic Model Loading: Supports multiple unique models with different animation sets.
