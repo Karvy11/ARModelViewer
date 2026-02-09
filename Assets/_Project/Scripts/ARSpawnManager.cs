@@ -75,7 +75,7 @@ public class ARSpawnManager : MonoBehaviour
         if (controller)
         {
             controller.Initialize(data);
-            var worldUi = Instantiate(worldMenueUIPrefab, controller.WorldUISpawnLocation.position, Quaternion.identity, controller.transform);
+            var worldUi = Instantiate(worldMenueUIPrefab, controller.WorldUISpawnLocation.position, Quaternion.identity, controller.WorldUISpawnLocation);
 
             controller.WorldMenuController = worldUi;
             worldUi.Controller = controller;
